@@ -1,0 +1,15 @@
+Host HOSTNAME-ALIAS-1
+    HostName DOMAIN-OR-IP-ADDRESS
+    Port PORT # DEFAULT 22
+    User USERNAME
+    PubKeyAuthentication yes
+    IdentityFile ~/.ssh/CERTIFICATE_NAME
+    IdentitiesOnly yes
+
+Host HOSTNAME-ALIAS-2
+    HostName DOMAINNAME-OR-IP-ADDRESS
+    Port 22
+    User USERNAME
+    PubKeyAuthentication yes
+    IdentityFile ~/.ssh/CERTIFICATE_NAME
+    IdentitiesOnly yes
